@@ -155,10 +155,6 @@ public class Main {
 				System.out.println("Model: "+ve.getModel());
 				System.out.println("------------------");
 			}
-		}
-		
-		
-		
-		
+		}		
 	}
 }
