@@ -116,7 +116,7 @@ public class Main {
 		
 		@SuppressWarnings("resource")
 		Scanner scannerRemove= new Scanner(System.in);
-		scannerRemove.next();
+//		scannerRemove.next();
 		while(!scannerRemove.nextLine().equals("no")) {
 			
 			System.out.println("Enter the model name you want to remove?");
@@ -126,7 +126,7 @@ public class Main {
 				System.out.println(i+1+"."+vehicleList.get(i).getModel());
 			}
 			
-		//	System.out.println("Enter the modebmwl name you want to remove?");
+		//	System.out.println("Enter the model name you want to remove?");
 			Scanner input= new Scanner(System.in);
 			
 			String modelNumber=input.nextLine();
